@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB2AB523283FE9B10058F7B0 /* PlacementSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2AB522283FE9B10058F7B0 /* PlacementSettings.swift */; };
+		AB2AB52528401D060058F7B0 /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2AB52428401D060058F7B0 /* PlacementView.swift */; };
+		AB2AB52A2840CAB50058F7B0 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2AB5292840CAB50058F7B0 /* CustomARView.swift */; };
+		AB5DC93A2847C322001F6F62 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = AB5DC9392847C322001F6F62 /* FocusEntity */; };
+		AB6AD8282844EA7400E6D733 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = AB6AD8272844EA7400E6D733 /* FocusEntity */; };
+		AB6AD82A2844EB9400E6D733 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6AD8292844EB9400E6D733 /* View+Extensions.swift */; };
+		AB6AD82C284521C600E6D733 /* SessionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6AD82B284521C600E6D733 /* SessionSettings.swift */; };
+		AB6AD82E2845240600E6D733 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6AD82D2845240600E6D733 /* SettingsView.swift */; };
+		ABAD7685283E84E700C489D3 /* FurnitureAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD7684283E84E700C489D3 /* FurnitureAppApp.swift */; };
+		ABAD7687283E84E700C489D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD7686283E84E700C489D3 /* ContentView.swift */; };
+		ABAD7689283E84E800C489D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABAD7688283E84E800C489D3 /* Assets.xcassets */; };
+		ABAD768C283E84E800C489D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABAD768B283E84E800C489D3 /* Preview Assets.xcassets */; };
+		ABAD7696283E84E800C489D3 /* FurnitureAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD7695283E84E800C489D3 /* FurnitureAppTests.swift */; };
+		ABAD76A0283E84E800C489D3 /* FurnitureAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD769F283E84E800C489D3 /* FurnitureAppUITests.swift */; };
+		ABAD76A2283E84E800C489D3 /* FurnitureAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD76A1283E84E800C489D3 /* FurnitureAppUITestsLaunchTests.swift */; };
+		ABAD76F6283E88C300C489D3 /* desk_lamp.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABAD76E7283E88C300C489D3 /* desk_lamp.usdz */; };
+		ABAD76F7283E88C300C489D3 /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABAD76E8283E88C300C489D3 /* tv_retro.usdz */; };
+		ABAD76F8283E88C300C489D3 /* vasco_table.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABAD76E9283E88C300C489D3 /* vasco_table.usdz */; };
+		ABAD76F9283E88C300C489D3 /* pool_table.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABAD76EA283E88C300C489D3 /* pool_table.usdz */; };
+		ABAD76FA283E88C300C489D3 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABAD76EB283E88C300C489D3 /* chair_swan.usdz */; };
+		ABAD76FB283E88C300C489D3 /* plant.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABAD76EC283E88C300C489D3 /* plant.usdz */; };
+		ABAD76FC283E88C300C489D3 /* lamp.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABAD76ED283E88C300C489D3 /* lamp.usdz */; };
+		ABAD76FD283E88C300C489D3 /* table_clock.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABAD76EE283E88C300C489D3 /* table_clock.usdz */; };
+		ABAD76FE283E88C300C489D3 /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABAD76EF283E88C300C489D3 /* fender_stratocaster.usdz */; };
+		ABAD76FF283E88C300C489D3 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABAD76F0283E88C300C489D3 /* teapot.usdz */; };
+		ABAD7700283E88C300C489D3 /* victorian_table.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABAD76F1283E88C300C489D3 /* victorian_table.usdz */; };
+		ABAD7701283E88C300C489D3 /* dining_chair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABAD76F2283E88C300C489D3 /* dining_chair.usdz */; };
+		ABAD7702283E88C300C489D3 /* gift.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABAD76F3283E88C300C489D3 /* gift.usdz */; };
+		ABAD7703283E88C300C489D3 /* table_lamp.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABAD76F4283E88C300C489D3 /* table_lamp.usdz */; };
+		ABAD7704283E88C300C489D3 /* cup_saucer_set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABAD76F5283E88C300C489D3 /* cup_saucer_set.usdz */; };
+		ABAD773E283E8D5A00C489D3 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD773D283E8D5A00C489D3 /* ControlView.swift */; };
+		ABAD7740283EF28C00C489D3 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD773F283EF28C00C489D3 /* BrowseView.swift */; };
+		ABAD7742283F954F00C489D3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD7741283F954F00C489D3 /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABAD7692283E84E800C489D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABAD7679283E84E700C489D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABAD7680283E84E700C489D3;
+			remoteInfo = FurnitureApp;
+		};
+		ABAD769C283E84E800C489D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABAD7679283E84E700C489D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABAD7680283E84E700C489D3;
+			remoteInfo = FurnitureApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB2AB522283FE9B10058F7B0 /* PlacementSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementSettings.swift; sourceTree = "<group>"; };
+		AB2AB52428401D060058F7B0 /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
+		AB2AB5292840CAB50058F7B0 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		AB6AD8292844EB9400E6D733 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		AB6AD82B284521C600E6D733 /* SessionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSettings.swift; sourceTree = "<group>"; };
+		AB6AD82D2845240600E6D733 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		ABAD7681283E84E700C489D3 /* FurnitureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FurnitureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABAD7684283E84E700C489D3 /* FurnitureAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureAppApp.swift; sourceTree = "<group>"; };
+		ABAD7686283E84E700C489D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABAD7688283E84E800C489D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABAD768B283E84E800C489D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABAD7691283E84E800C489D3 /* FurnitureAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FurnitureAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABAD7695283E84E800C489D3 /* FurnitureAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureAppTests.swift; sourceTree = "<group>"; };
+		ABAD769B283E84E800C489D3 /* FurnitureAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FurnitureAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABAD769F283E84E800C489D3 /* FurnitureAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureAppUITests.swift; sourceTree = "<group>"; };
+		ABAD76A1283E84E800C489D3 /* FurnitureAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABAD76E7283E88C300C489D3 /* desk_lamp.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = desk_lamp.usdz; sourceTree = "<group>"; };
+		ABAD76E8283E88C300C489D3 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
+		ABAD76E9283E88C300C489D3 /* vasco_table.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = vasco_table.usdz; sourceTree = "<group>"; };
+		ABAD76EA283E88C300C489D3 /* pool_table.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pool_table.usdz; sourceTree = "<group>"; };
+		ABAD76EB283E88C300C489D3 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
+		ABAD76EC283E88C300C489D3 /* plant.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = plant.usdz; sourceTree = "<group>"; };
+		ABAD76ED283E88C300C489D3 /* lamp.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = lamp.usdz; sourceTree = "<group>"; };
+		ABAD76EE283E88C300C489D3 /* table_clock.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = table_clock.usdz; sourceTree = "<group>"; };
+		ABAD76EF283E88C300C489D3 /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
+		ABAD76F0283E88C300C489D3 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
+		ABAD76F1283E88C300C489D3 /* victorian_table.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = victorian_table.usdz; sourceTree = "<group>"; };
+		ABAD76F2283E88C300C489D3 /* dining_chair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = dining_chair.usdz; sourceTree = "<group>"; };
+		ABAD76F3283E88C300C489D3 /* gift.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gift.usdz; sourceTree = "<group>"; };
+		ABAD76F4283E88C300C489D3 /* table_lamp.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = table_lamp.usdz; sourceTree = "<group>"; };
+		ABAD76F5283E88C300C489D3 /* cup_saucer_set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cup_saucer_set.usdz; sourceTree = "<group>"; };
+		ABAD773D283E8D5A00C489D3 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		ABAD773F283EF28C00C489D3 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		ABAD7741283F954F00C489D3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABAD767E283E84E700C489D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5DC93A2847C322001F6F62 /* FocusEntity in Frameworks */,
+				AB6AD8282844EA7400E6D733 /* FocusEntity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABAD768E283E84E800C489D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABAD7698283E84E800C489D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABAD7678283E84E700C489D3 = {
+			isa = PBXGroup;
+			children = (
+				ABAD7683283E84E700C489D3 /* FurnitureApp */,
+				ABAD7694283E84E800C489D3 /* FurnitureAppTests */,
+				ABAD769E283E84E800C489D3 /* FurnitureAppUITests */,
+				ABAD7682283E84E700C489D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABAD7682283E84E700C489D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD7681283E84E700C489D3 /* FurnitureApp.app */,
+				ABAD7691283E84E800C489D3 /* FurnitureAppTests.xctest */,
+				ABAD769B283E84E800C489D3 /* FurnitureAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABAD7683283E84E700C489D3 /* FurnitureApp */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD7684283E84E700C489D3 /* FurnitureAppApp.swift */,
+				ABAD7686283E84E700C489D3 /* ContentView.swift */,
+				AB2AB5292840CAB50058F7B0 /* CustomARView.swift */,
+				ABAD773D283E8D5A00C489D3 /* ControlView.swift */,
+				ABAD773F283EF28C00C489D3 /* BrowseView.swift */,
+				AB2AB52428401D060058F7B0 /* PlacementView.swift */,
+				AB6AD82D2845240600E6D733 /* SettingsView.swift */,
+				AB2AB522283FE9B10058F7B0 /* PlacementSettings.swift */,
+				AB6AD82B284521C600E6D733 /* SessionSettings.swift */,
+				ABAD7741283F954F00C489D3 /* Model.swift */,
+				AB6AD8292844EB9400E6D733 /* View+Extensions.swift */,
+				ABAD7688283E84E800C489D3 /* Assets.xcassets */,
+				ABAD76E6283E889200C489D3 /* 3D Asset */,
+				ABAD768A283E84E800C489D3 /* Preview Content */,
+			);
+			path = FurnitureApp;
+			sourceTree = "<group>";
+		};
+		ABAD768A283E84E800C489D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD768B283E84E800C489D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABAD7694283E84E800C489D3 /* FurnitureAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD7695283E84E800C489D3 /* FurnitureAppTests.swift */,
+			);
+			path = FurnitureAppTests;
+			sourceTree = "<group>";
+		};
+		ABAD769E283E84E800C489D3 /* FurnitureAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD769F283E84E800C489D3 /* FurnitureAppUITests.swift */,
+				ABAD76A1283E84E800C489D3 /* FurnitureAppUITestsLaunchTests.swift */,
+			);
+			path = FurnitureAppUITests;
+			sourceTree = "<group>";
+		};
+		ABAD76E6283E889200C489D3 /* 3D Asset */ = {
+			isa = PBXGroup;
+			children = (
+				ABAD76EA283E88C300C489D3 /* pool_table.usdz */,
+				ABAD76E9283E88C300C489D3 /* vasco_table.usdz */,
+				ABAD76F1283E88C300C489D3 /* victorian_table.usdz */,
+				ABAD76EB283E88C300C489D3 /* chair_swan.usdz */,
+				ABAD76F2283E88C300C489D3 /* dining_chair.usdz */,
+				ABAD76F5283E88C300C489D3 /* cup_saucer_set.usdz */,
+				ABAD76EF283E88C300C489D3 /* fender_stratocaster.usdz */,
+				ABAD76F3283E88C300C489D3 /* gift.usdz */,
+				ABAD76EC283E88C300C489D3 /* plant.usdz */,
+				ABAD76EE283E88C300C489D3 /* table_clock.usdz */,
+				ABAD76E8283E88C300C489D3 /* tv_retro.usdz */,
+				ABAD76F0283E88C300C489D3 /* teapot.usdz */,
+				ABAD76F4283E88C300C489D3 /* table_lamp.usdz */,
+				ABAD76E7283E88C300C489D3 /* desk_lamp.usdz */,
+				ABAD76ED283E88C300C489D3 /* lamp.usdz */,
+			);
+			path = "3D Asset";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABAD7680283E84E700C489D3 /* FurnitureApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABAD76A5283E84E800C489D3 /* Build configuration list for PBXNativeTarget "FurnitureApp" */;
+			buildPhases = (
+				ABAD767D283E84E700C489D3 /* Sources */,
+				ABAD767E283E84E700C489D3 /* Frameworks */,
+				ABAD767F283E84E700C489D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FurnitureApp;
+			packageProductDependencies = (
+				AB6AD8272844EA7400E6D733 /* FocusEntity */,
+				AB5DC9392847C322001F6F62 /* FocusEntity */,
+			);
+			productName = FurnitureApp;
+			productReference = ABAD7681283E84E700C489D3 /* FurnitureApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABAD7690283E84E800C489D3 /* FurnitureAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABAD76A8283E84E800C489D3 /* Build configuration list for PBXNativeTarget "FurnitureAppTests" */;
+			buildPhases = (
+				ABAD768D283E84E800C489D3 /* Sources */,
+				ABAD768E283E84E800C489D3 /* Frameworks */,
+				ABAD768F283E84E800C489D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABAD7693283E84E800C489D3 /* PBXTargetDependency */,
+			);
+			name = FurnitureAppTests;
+			productName = FurnitureAppTests;
+			productReference = ABAD7691283E84E800C489D3 /* FurnitureAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABAD769A283E84E800C489D3 /* FurnitureAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABAD76AB283E84E800C489D3 /* Build configuration list for PBXNativeTarget "FurnitureAppUITests" */;
+			buildPhases = (
+				ABAD7697283E84E800C489D3 /* Sources */,
+				ABAD7698283E84E800C489D3 /* Frameworks */,
+				ABAD7699283E84E800C489D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABAD769D283E84E800C489D3 /* PBXTargetDependency */,
+			);
+			name = FurnitureAppUITests;
+			productName = FurnitureAppUITests;
+			productReference = ABAD769B283E84E800C489D3 /* FurnitureAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABAD7679283E84E700C489D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = "Ilya Zelkin";
+				TargetAttributes = {
+					ABAD7680283E84E700C489D3 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					ABAD7690283E84E800C489D3 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = ABAD7680283E84E700C489D3;
+					};
+					ABAD769A283E84E800C489D3 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = ABAD7680283E84E700C489D3;
+					};
+				};
+			};
+			buildConfigurationList = ABAD767C283E84E700C489D3 /* Build configuration list for PBXProject "FurnitureApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABAD7678283E84E700C489D3;
+			packageReferences = (
+				AB6AD8262844EA7400E6D733 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+				AB5DC9382847C322001F6F62 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = ABAD7682283E84E700C489D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABAD7680283E84E700C489D3 /* FurnitureApp */,
+				ABAD7690283E84E800C489D3 /* FurnitureAppTests */,
+				ABAD769A283E84E800C489D3 /* FurnitureAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABAD767F283E84E700C489D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAD76FF283E88C300C489D3 /* teapot.usdz in Resources */,
+				ABAD7704283E88C300C489D3 /* cup_saucer_set.usdz in Resources */,
+				ABAD76FE283E88C300C489D3 /* fender_stratocaster.usdz in Resources */,
+				ABAD76F6283E88C300C489D3 /* desk_lamp.usdz in Resources */,
+				ABAD768C283E84E800C489D3 /* Preview Assets.xcassets in Resources */,
+				ABAD7703283E88C300C489D3 /* table_lamp.usdz in Resources */,
+				ABAD7701283E88C300C489D3 /* dining_chair.usdz in Resources */,
+				ABAD7700283E88C300C489D3 /* victorian_table.usdz in Resources */,
+				ABAD76FC283E88C300C489D3 /* lamp.usdz in Resources */,
+				ABAD76F9283E88C300C489D3 /* pool_table.usdz in Resources */,
+				ABAD76F7283E88C300C489D3 /* tv_retro.usdz in Resources */,
+				ABAD7689283E84E800C489D3 /* Assets.xcassets in Resources */,
+				ABAD76FB283E88C300C489D3 /* plant.usdz in Resources */,
+				ABAD76F8283E88C300C489D3 /* vasco_table.usdz in Resources */,
+				ABAD76FA283E88C300C489D3 /* chair_swan.usdz in Resources */,
+				ABAD7702283E88C300C489D3 /* gift.usdz in Resources */,
+				ABAD76FD283E88C300C489D3 /* table_clock.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABAD768F283E84E800C489D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABAD7699283E84E800C489D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABAD767D283E84E700C489D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2AB523283FE9B10058F7B0 /* PlacementSettings.swift in Sources */,
+				AB6AD82C284521C600E6D733 /* SessionSettings.swift in Sources */,
+				AB6AD82A2844EB9400E6D733 /* View+Extensions.swift in Sources */,
+				ABAD7742283F954F00C489D3 /* Model.swift in Sources */,
+				ABAD7740283EF28C00C489D3 /* BrowseView.swift in Sources */,
+				ABAD7687283E84E700C489D3 /* ContentView.swift in Sources */,
+				ABAD773E283E8D5A00C489D3 /* ControlView.swift in Sources */,
+				ABAD7685283E84E700C489D3 /* FurnitureAppApp.swift in Sources */,
+				AB2AB52A2840CAB50058F7B0 /* CustomARView.swift in Sources */,
+				AB2AB52528401D060058F7B0 /* PlacementView.swift in Sources */,
+				AB6AD82E2845240600E6D733 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABAD768D283E84E800C489D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAD7696283E84E800C489D3 /* FurnitureAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABAD7697283E84E800C489D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAD76A0283E84E800C489D3 /* FurnitureAppUITests.swift in Sources */,
+				ABAD76A2283E84E800C489D3 /* FurnitureAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABAD7693283E84E800C489D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABAD7680283E84E700C489D3 /* FurnitureApp */;
+			targetProxy = ABAD7692283E84E800C489D3 /* PBXContainerItemProxy */;
+		};
+		ABAD769D283E84E800C489D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABAD7680283E84E700C489D3 /* FurnitureApp */;
+			targetProxy = ABAD769C283E84E800C489D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABAD76A3283E84E800C489D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABAD76A4283E84E800C489D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABAD76A6283E84E800C489D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FurnitureApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3ASACPJ4LD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To use Augmented Reality, this app requests access to use the camera.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyazelkin.FurnitureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABAD76A7283E84E800C489D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FurnitureApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3ASACPJ4LD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To use Augmented Reality, this app requests access to use the camera.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyazelkin.FurnitureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABAD76A9283E84E800C489D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ASACPJ4LD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyazelkin.FurnitureAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FurnitureApp.app/FurnitureApp";
+			};
+			name = Debug;
+		};
+		ABAD76AA283E84E800C489D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ASACPJ4LD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyazelkin.FurnitureAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FurnitureApp.app/FurnitureApp";
+			};
+			name = Release;
+		};
+		ABAD76AC283E84E800C489D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ASACPJ4LD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyazelkin.FurnitureAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FurnitureApp;
+			};
+			name = Debug;
+		};
+		ABAD76AD283E84E800C489D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ASACPJ4LD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyazelkin.FurnitureAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FurnitureApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABAD767C283E84E700C489D3 /* Build configuration list for PBXProject "FurnitureApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAD76A3283E84E800C489D3 /* Debug */,
+				ABAD76A4283E84E800C489D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABAD76A5283E84E800C489D3 /* Build configuration list for PBXNativeTarget "FurnitureApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAD76A6283E84E800C489D3 /* Debug */,
+				ABAD76A7283E84E800C489D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABAD76A8283E84E800C489D3 /* Build configuration list for PBXNativeTarget "FurnitureAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAD76A9283E84E800C489D3 /* Debug */,
+				ABAD76AA283E84E800C489D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABAD76AB283E84E800C489D3 /* Build configuration list for PBXNativeTarget "FurnitureAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAD76AC283E84E800C489D3 /* Debug */,
+				ABAD76AD283E84E800C489D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB5DC9382847C322001F6F62 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		AB6AD8262844EA7400E6D733 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB5DC9392847C322001F6F62 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB6AD8262844EA7400E6D733 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+		AB6AD8272844EA7400E6D733 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB6AD8262844EA7400E6D733 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ABAD7679283E84E700C489D3 /* Project object */;
+}
